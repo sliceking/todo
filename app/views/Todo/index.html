@@ -16,6 +16,13 @@
             {{template "flash.html" .}}
         </div>
     </div>
+
+    <div class="todos">
+        {{range .todos}}
+            <div>Description: {{.Description}}</div>
+            <div>finished?: {{.Done}}</div>
+        {{end}}
+    </div>
 </div>
 
 {{template "footer.html" .}}

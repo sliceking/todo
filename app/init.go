@@ -4,7 +4,7 @@ import (
 	"fmt"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/jinzhu/gorm"
-	"todo/app/models"
+	"github.com/sliceking/todo/app/models"
 
 	"github.com/revel/revel"
 )
