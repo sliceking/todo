@@ -2,11 +2,10 @@ package app
 
 import (
 	"fmt"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/jinzhu/gorm"
-	"github.com/sliceking/todo/app/models"
-
+	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/revel/revel"
+	"github.com/sliceking/todo/app/models"
 )
 
 var (
